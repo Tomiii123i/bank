@@ -1,0 +1,109 @@
+body{
+	background: linear-gradient(125deg, #ff0,#000);
+	height: 600px;
+}
+.Captcha{
+	width: 400px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	background: #aaa;
+	border-radius: 20px;
+	margin-top: 10px;
+
+}
+#Captchavalue{
+	width: 150px;
+	height: 50;
+	background: url(back.jpg);
+	color: 000;
+	font-size: 35px; 
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	margin: 15px;
+	text-align: center;
+}
+#Captchatext{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 30px;
+	border-radius: 5px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 15px; 
+	font-weight: bold;
+
+
+}
+#Captchatext::placeholder{
+	text-align: center;
+
+}
+
+
+#CaptchaRefresh{
+	margin-bottom: 10px;
+	width: 100px;
+}
+
+#CaptchaCheck{
+	margin-bottom: 10px;
+	width: 100px;
+	
+}
+#SeIDnum{
+	width: 45px;
+	
+	font-weight: bold;
+}
+#txtIDnum{
+	border-left-style: none;
+	border: solid 1px grey;
+	border-left: none;
+	width: 132px;
+	height: 18px;
+}
+#submit2{
+
+	margin: 30px;
+	width: 250px;
+	visibility:hidden;
+
+}
+#homestyle{
+	align-content: center;
+	width: 350px;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 20px;
+}
+table{
+	width: 400px;	
+}
+tr:hover{
+	background-color: #aaa;
+}
+a{
+	font-size: 35px;
+	text-decoration:none;
+	color: #222;
+}
+
+#formo{
+
+	padding-top: 25px;
+	width: 450px;
+	background: linear-gradient(150deg, #05e,#eee);
+	border-style: solid;
+	border-radius: 20px;
+	border-bottom: none;
+}
+#btnform{
+	margin: 7px;
+	background-color: #eee;
+	width: 150px;
+	border-radius: 5px;
+}
